@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stlye.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="menu">
+        <div class="logo_menu">
+            <img src="image/logo.png" alt="">
+            <h4>FREE-9CHAT</h4>
+        </div>
+        <div class="login_menu">
+            <button class="login">LOGIN</button>
+            <button class="sign_up">SIGN UP</button>
+            <button class = "logOut">LOG OUT</button>
+
+        </div>
+    </div>
+    
+    <div class="cover">
+        <div class="userLogin">
+            <form>
+                <h3 class="register">FORM REGISTER </h3>
+                <h3 class ="user_login">FORM LOGIN</h3>
+                <input type="text" id="username" placeholder="Username"><br>
+                <input type="password" id="password" placeholder="password"><br>
+                <div id= "sex">
+                    <input type="radio" name="genderSelect" id="maleRadio" value="Male"/>Male
+                    <input type="radio" name="genderSelect" id="femaleRadio" value="Female"  />Female 
+                </div>
+                <input type="color" id="color">
+                <div class = "Button">
+                    <button id="save">Login</button>
+                    <button id = "submit">Register</button>
+                    <button id= "cancel">Cancel</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="container">
+            <div class="header_chat">
+                <div class="icon-logo">
+                    <img src="image/logo1.png" alt="">
+                    <h5>welcome to free-9chat</h5>
+                </div>
+                <div class="icon-call">
+                    <img src="image/call.png">
+                    <img src="image/video.png" class="video-call">
+    
+                </div>
+            </div>
+            <div class="content">
+    
+                <div class="user-list">
+                    <fieldset>   
+                    </fieldset>
+                </div>
+    
+            </div>
+            <div class="message">
+                <div class="b_I">
+                    <span class="fa fa-bold" id = "bold"></span>
+                    <span class="fa fa-italic" id = "italic"></span>
+                </div>
+    
+                <input type="text" id="textId" placeholder="write message">
+                <button id="send_message" disabled >send</button>
+                <button id = "update_message">update</button>
+            </div>
+    
+        </div>
+    
+    </div>
+    <audio id="myAudio">
+        <source src="message.mp3" type="audio/ogg">
+        <source src="message.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+
+</html>

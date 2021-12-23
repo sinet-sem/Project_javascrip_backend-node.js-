@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("../image/chat.jpg");
+    background-size: cover;   
+}
+.menu{
+   
+    background: rgba(33, 54, 240, 0.952);
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo_menu{
+    display: flex;
+}
+
+.login,.sign_up,.logOut{
+    background: rgba(33, 54, 240, 0.952);
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+
+.login{
+    color: white;
+}
+.logOut{
+    display:none;
+}
+
+.container{
+    
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    background: url(../image/background.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 10px #333;
+    display: none;
+
+}
+.header_chat{
+    background: rgba(244, 83, 55, 0.301);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0.5px 10px rgba(51, 51, 51, 0.788);
+    display: flex;
+    justify-content: space-between;
+}
+.header_chat img , .icon-call img, .logo_menu img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.icon-logo{
+    display: flex;
+}
+.icon-call .video-call{
+    margin-right: 20px;
+}
+
+h5{
+    font-size: 15px;
+}
+.content {
+    
+    height: 400px;
+    overflow:auto ;
+    padding: 30px;  
+}
+.message{
+    box-shadow: 0px 2px 10px #333;
+    background: #f3e3c985;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px ;
+    padding: 9px;   
+}
+#textId{
+    padding: 12px;
+    width:420px;
+    border-radius: 10px; 
+}
+#send_message, #update_message{
+    padding: 12px;
+    width: 150px;
+    background: rgb(24, 121, 4);
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;   
+}  
+.b_I {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+}
+.fa-bold{
+    margin-right: 10px;
+}
+.fa-italic,.fa-bold{
+    font-size: 17px;
+}
+#textId{
+    outline: none;
+    border: none;
+}
+.list{
+    margin-top: 15px;
+}
+
+fieldset{
+    
+    border: 1px solid rgb(248, 128, 128);
+    max-width:max-content;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;   
+} 
+.fa-pencil-square-o{
+    
+    margin-left: 20px;
+}
+.fa-trash,.fa-pencil-square-o, .fa-quote-left{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} 
+.userLogin{
+    margin: auto;
+    width: 400px;
+    padding: 30px;
+}
+.cover h3{
+    text-align: center;
+}
+form{
+    border-radius: 10px;
+    box-shadow: 0px 0.5px 10px rgb(104, 103, 103);
+    background: rgb(5, 122, 126);
+    padding: 10px; 
+}
+
+form input[type="text"],
+input[type="password"],
+input[type="color"]{
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    border:none;
+    box-shadow: 0px 0.5px 10px rgba(51, 51, 51, 0.788);
+    margin-left: 30px;
+    margin-bottom: 30px; 
+}
+input[type="color"]{
+    margin-left: 30px;
+    padding: 9px;
+    display:none;
+}
+.Button button{
+    padding: 10px;
+    margin: auto;
+    width: 150px;
+    border:none;
+    box-shadow: 0px 0.5px 10px rgba(51, 51, 51, 0.788);
+    outline: none;
+    border-radius: 5px;
+    background: green;
+    color: white;
+}
+.Button {
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#cancel{
+    background: rgb(177, 4, 4);
+    cursor: pointer;
+    margin-left: -13px;  
+}
+#save{
+    cursor: pointer;
+    margin-left: 28px;
+} 
+.register{
+    display:none;
+}
+#submit{
+    display: none;
+    margin-left: 28px;
+}
+
+.time {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#sex{
+    display: none;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+fieldset img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.textMessage{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+}
+
